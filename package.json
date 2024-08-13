@@ -1,10 +1,13 @@
 {
-  "name": "redux-injectors",
+  "name": "@ninanor/redux-injectors",
   "version": "2.1.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "index.d.ts",
-  "repository": "git@github.com:react-boilerplate/redux-injectors.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ninanor/redux-injectors.git"
+  },
   "author": "react-boilerplate",
   "license": "MIT",
   "sideEffects": false,
@@ -59,7 +62,7 @@
   "peerDependencies": {
     "react": "^16.6.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.6.0 || ^17.0.0 || ^18.0.0",
-    "react-redux": "^7.1.0"
+    "react-redux": ">=7.1.0"
   },
   "dependencies": {
     "hoist-non-react-statics": "^3.3.2",
